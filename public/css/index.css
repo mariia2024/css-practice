@@ -294,14 +294,14 @@ background:gray ;
 Завдання №1. 
 Використовуйте цей селектор :hover*/
 
-.btn:hover {
+.lesson-four-task-one button:hover {
   color: red;
   background-color: yellow;
 }
 
 /* Завдання №2. 
 Використовуйте цей селектор :hover*/
- a:hover ~ h1 {
+ .lesson-four-task-two a:hover ~ h1 {
   background-color: green;
 }
 
@@ -311,28 +311,28 @@ background:gray ;
 тому легше всього пройти тут
  Використовуйте цей селектор :visited*/
 
- .link:visited {
+ .lesson-four-task-three a:visited {
   color:yellow;
  }
 
  /* Завдання №4. 
 Використовуйте цей селектор :link */
 
- a:link {
+.lesson-four-task-four a:link {
   color: red;
 }
 
 /*Завдання №5. 
 Використовуйте цей селектор :active */
 
- .btn:active {
+ .lesson-four-task-five btn:active {
   background-color: blue;
 } 
 
 /*Завдання №6. 
 Використовуйте цей селектор :focus */
 
- button:focus {
+ .lesson-four-task-six button:focus {
   color: orange;
   background-color: orange;
 }
@@ -340,7 +340,7 @@ background:gray ;
 /*Завдання №7. 
 Використовуйте цей селектор :target*/
 
-#target:target{
+.lesson-four-task-seven #target:target{
   color: white;
   background-color:green;
 }
@@ -348,7 +348,7 @@ background:gray ;
 /*Завдання №8. 
  Використовуйте цей селектор :checked*/
 
-  input:checked ~ #target{
+  .lesson-four-task-eight input:checked ~ #target{
   color: white;
   background-color:blue;
  } 
@@ -356,14 +356,14 @@ background:gray ;
  /*Завдання №9. 
 Використовуйте цей селектор :lang() */
 
- p:lang(uk) {
+  .lesson-four-task-nine p:lang(uk) {
   color: blue;
 }
 
 /* №10. 
 Використовуйте цей селектор :enabled*/
 
-:enabled{
+.lesson-four-task-ten input:enabled{
   color: red;
   background-color:yellow;
 }
@@ -371,68 +371,68 @@ background:gray ;
 /*Завдання №11. 
 Використовуйте цей селектор :disabled*/ 
 
-input:disabled {
+ .lesson-four-task-eleven input:disabled {
   background-color: yellow;
 }
 
 /*Завдання №12. 
 Використовуйте цей селектор :read-write*/
 
-input:read-write {
+ .lesson-four-task-twelve input:read-write {
   background-color: yellow;
 }
 
 /*Завдання №13. */
 
-input:read-only {
+.lesson-four-task-thirteen input:read-only {
   background-color: yellow;
 }
 
 /*Завдання №14. 
 Використовуйте ці селектори :valid та :invalid */
 
-input:valid {
+.lesson-four-task-fourteen input:valid {
   background-color: green;
 }
- input:invalid {
+ lesson-four-task-fourteen input:invalid {
   background-color: red;
 }
 
 /*Завдання №15. 
  Використовуйте цей селектор :optional */
 
- input:optional {
+.lesson-four-task-fifteen input:optional {
   background-color: red;
 }
 
 /*Завдання №16. 
  Використовуйте цей селектор :out-of-range*/
 
- input:out-of-range {
+.lesson-four-task-sixteen input:out-of-range {
 color: red;
  }
 
  /*Завдання №17.Використовуйте цей селектор :in-range*/
 
- input:in-range{
+ .lesson-four-task-seventeen input:in-range{
   color: red;
   }
   
    /*Завдання №18. Використовуйте цей селектор :placeholder-shown*/
 
-   input:placeholder-shown {
+   .lesson-four-task-eighteen input:placeholder-shown {
     background-color: red;
   }
 
   /*Завдання №19.Застосуйте селектор :focus-within*/
 
-  button:focus-within{
+ .lesson-four-task-nineteen button:focus-within{
 color: white;
 background-color:yellow ;
   }
 
 /*Завдання №20.Використовуйте цей селектор :invalid*/
 
-input:invalid{
+ .lesson-four-task-twenty input:invalid{
   background-color: red;
 }
