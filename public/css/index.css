@@ -67,7 +67,7 @@
  }
 
  .block {
-	display: inline-block;
+	display: flex;
 	background: rgb(209, 204, 204);
 
 	margin: auto; /*працює лише горизонтально по центру*/
