@@ -1,438 +1,87 @@
-/* Селектори 1 частина */
-
-/*:root {
- background: purple
- ;
-}
-
-html {
-  max-width: 720px;
-
-  background: blue;
-}
-
-body {
-  background: #fff;
-}
-* {
-color:red;
-}
-
-h1 {
-  color: green
-  ;
-}
-h1 {
-  color: blue
-  ;
-}
-
-.box {
-  background: #ece6e6;
-}
-
-#user{
-  color:blue;
-}
-
-h1,h2,button{
-  color:green;
-}
-
-button {
-  background: red;
-  color: black;
-  }
-
-  h1,h2#user,button.button#button{
-    color:green;
-  }
-
-  #user, .user{
-    color:blue;
-  }
-
-  #box > p{
-    color:palevioletred;
-  }
-
-
-  footer > .user{
-    color:chocolate;  
-  }
-
-  footer em.child,
-  footer div.child{
-    color:rgb(51, 47, 79);
-  }
-
-  .p-top{
-    background: black;
-  }
-
-  h1 + p{
-    background:deeppink;
-  }
-
-  h1 ~ p,
-  h1 ~ * > p {
-    background:deeppink;
-  }*/
-
-  /* Селектори 2 частина */
-
-/*.card-dark {
-  background:#c7bcbcb7 ;
-}
-
-.item{
-  color:green
-  ;
-}
-
-.item:first-child {
-  color: rgb(171, 91, 15);
-}
-
-.item:last-child {
-  color: blue;
-}
-
-.item:only-child {
-  color: rgb(206, 28, 141);
-}
-
-p:first-of-type {
-  color: rgb(171, 91, 15);
-}
-
-.item:only-of-type{
-  color: blueviolet;
-}*/
-
-/*:-moz-drag-over:nth-child(3){
-  color:rgb(15, 28, 2)
-}
-
-.item:nth-child(even){
-  color:rgb(15, 28, 2)
-}
-
-.item:nth-child(3n + 1){
-  color:rgb(172, 10, 10)
-}
-
-.item:nth-child(2n){
-  color:rgb(172, 10, 10)
-}*/
-
-/*.item:nth- of-type(2n){
-  color:rgb(232, 56, 8)
-}
-
-p:not(.item){
-  color: #d40b79;
-}
-
-p:empty{
-  height: 10px;
-  background: red;
-}*/
-
-/* Селектори 3 частина */
-
-/*.input-dark {
-  background:#474646b7 ;
-}
-.input-dark[required] {
-  background:#e81313b7 ;
-}
-
-.input-dark[type="number"] {
-  background:#17e813b7 ;
-}
-
-.small-img[alt~="small"] {
-  height: 500px ;
-}
-
-a[rel~="external"] {
-  color:green;
-}
-
-button[class|="btn"] {
-background: rgb(217, 175, 175);
-}
-
-a[class*="btn"] {
-  background: rgb(201, 11, 11);
-  }
-
-a[class$="big"] {
-background: rgba(107, 6, 238, 0.854);
-}
-
-.btn::first-letter{
- color: rgb(28, 5, 5);
-}
-
-.big-text::first-line {
-color:red ;
-}
-
-.input-dark::placeholder {
-  color:green ;
-  background: blue;
-}
-
-.before-after::before,
-.before-after::after {
- content: "$$$";
- color: green;
- background: red;
-}/*
-
-/* Селектори 4 частина 
-
-#test:target {
-  color: red;
-}
-
-.link:link {
-  color:red;
-}
-
-.link:hover {
-  color:green;
-}
-
-.card:hover {
-  background: rgb(220, 234, 220);
-}
-
-.link:active {
-  color:purple;
-}
-
-.card:active {
-  background:rgb(235, 129, 235);
-}
-
-input {
-  background:grey;
-}
-
-input:focus {
-  background-color:red ;
-}
-
-.card:focus-within {
-  background: red;
-}
-
-.card:lang(en) > span::after {
-  content: " (en)" ;
-}
-
- button {
-  background-color:greenyellow ;
+ .card > p {
+ color:green;
+ -webkit-text-fill-color:red;
+ -webkit-text-stroke: 1px blue;
  }
 
- button:enabled {
-  background-color: aqua;
+ p:focus,
+ p:active,
+ p:hover {
+ -webkit-text-fill-color:rgb(225, 255, 0);
+ -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+ direction: rtl;
  }
 
- button:disabled {
-  background-color: rgb(13, 132, 35);
+ #test{
+	color:unset;
+ -webkit-text-fill-color:unset;
+ -webkit-text-stroke:unset;
+
+
+ text-align: justify;
+
+ letter-spacing: 0.5em;
+
  }
 
- .inp:read-write {
-  background-color: blue;
+ span {
+	text-align:left;
+	text-transform: uppercase;
+
+	text-decoration: underline solid red;
  }
 
- .inp:read-only {
-  background-color: red;
+ span:hover {
+	text-decoration-line: line-through;
+	text-decoration-style: dotted ;
  }
 
- .input[type="checkbox"]:checkeb ~ span {
-  background: rgb(235, 98, 207);
+ pre {
+	tab-size:5 ;
  }
 
- .valid:valid{
-  background: yellow;
+ *{
+	font-family: "Roboto",  Helvetica,  sans-serif;
+	font-size: 18px; 
+	font-weight: 900;
+	font-style: italic;
+
+	font-display: swap;
  }
 
- .valid:invalid{
-  background: rgb(74, 207, 74);
+ span {
+	font-size: larger;
+
+	font-weight: lighter;
+
+	font-style: oblique;
  }
 
- .valid:optional{
-  background: rgb(6, 243, 6);
+ p {
+	font-stretch: expanded;
  }
 
- .number:focus{
-background:gray ;
+ .test {
+	display: none;
  }
 
- .number:out-of-range {
-  background: rgb(0, 217, 255);
+ .block {
+	display: inline-block;
+	background: rgb(209, 204, 204);
+
+	margin: auto; /*працює лише горизонтально по центру*/
+
+	width: 100;
+
+	max-width: 600px;
+
+	min-height: 100px;
+
+	max-height: max-content;
+
+	padding: 15px;
+
+	box-sizing: content-box;
+	
  }
-
- .number:in-range {
-  background: rgb(69, 8, 199);
- }
-
- .number:invalid{
-  background: rgb(232, 229, 9);
- }
-
- input:placeholder-shown ~ span {
-  background: pink;
- }*/
-
- /*  Урок 4  
-Завдання №1. 
-Використовуйте цей селектор :hover*/
-
-.btn:hover {
-  color: red;
-  background-color: yellow;
-}
-
-/* Завдання №2. 
-Використовуйте цей селектор :hover*/
- a:hover ~ h1 {
-  background-color: green;
-}
-
-/* Завдання №3. Змініть колір тексту відвіданого посилання на жовтий:
- Порада проходити це завдання на https://codepen.io/ ,адже через те,
-що браузер запам'ятовує посилання на які ви заходили вам потрібно буде скидати кеш постійно,
-тому легше всього пройти тут
- Використовуйте цей селектор :visited*/
-
- .link:visited {
-  color:yellow;
- }
-
- /* Завдання №4. 
-Використовуйте цей селектор :link */
-
- a:link {
-  color: red;
-}
-
-/*Завдання №5. 
-Використовуйте цей селектор :active */
-
- .btn:active {
-  background-color: blue;
-} 
-
-/*Завдання №6. 
-Використовуйте цей селектор :focus */
-
- button:focus {
-  color: orange;
-  background-color: orange;
-}
-
-/*Завдання №7. 
-Використовуйте цей селектор :target*/
-
-#target:target{
-  color: white;
-  background-color:green;
-}
-
-/*Завдання №8. 
- Використовуйте цей селектор :checked*/
-
-  input:checked ~ #target{
-  color: white;
-  background-color:blue;
- } 
-
- /*Завдання №9. 
-Використовуйте цей селектор :lang() */
-
- p:lang(uk) {
-  color: blue;
-}
-
-/* №10. 
-Використовуйте цей селектор :enabled*/
-
-:enabled{
-  color: red;
-  background-color:yellow;
-}
-
-/*Завдання №11. 
-Використовуйте цей селектор :disabled*/ 
-
-input:disabled {
-  background-color: yellow;
-}
-
-/*Завдання №12. 
-Використовуйте цей селектор :read-write*/
-
-input:read-write {
-  background-color: yellow;
-}
-
-/*Завдання №13. */
-
-input:read-only {
-  background-color: yellow;
-}
-
-/*Завдання №14. 
-Використовуйте ці селектори :valid та :invalid */
-
-input:valid {
-  background-color: green;
-}
- input:invalid {
-  background-color: red;
-}
-
-/*Завдання №15. 
- Використовуйте цей селектор :optional */
-
- input:optional {
-  background-color: red;
-}
-
-/*Завдання №16. 
- Використовуйте цей селектор :out-of-range*/
-
- input:out-of-range {
-color: red;
- }
-
- /*Завдання №17.Використовуйте цей селектор :in-range*/
-
- input:in-range{
-  color: red;
-  }
-  
-   /*Завдання №18. Використовуйте цей селектор :placeholder-shown*/
-
-   input:placeholder-shown {
-    background-color: red;
-  }
-
-  /*Завдання №19.Застосуйте селектор :focus-within*/
-
-  button:focus-within{
-color: white;
-background-color:yellow ;
-  }
-
-/*Завдання №20.Використовуйте цей селектор :invalid*/
-
-input:invalid{
-  background-color: red;
-}

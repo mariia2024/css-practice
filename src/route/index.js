@@ -15,6 +15,15 @@ router.get('/', function (req, res) {
   res.render('index', {})
   //                  ↑↑ сюди вводимо JSON дані
 })
+// ================================================================
+router.get('/selector', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('selector', {
+    layout: 'selector',
+  })
+})
 
 // ================================================================
 
