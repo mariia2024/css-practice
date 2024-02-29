@@ -1,0 +1,293 @@
+/* Селектори 1 частина */
+
+/*:root {
+ background: purple
+ ;
+}
+
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+body {
+  background: #fff;
+}
+* {
+color:red;
+}
+
+h1 {
+  color: green
+  ;
+}
+h1 {
+  color: blue
+  ;
+}
+
+.box {
+  background: #ece6e6;
+}
+
+#user{
+  color:blue;
+}
+
+h1,h2,button{
+  color:green;
+}
+
+button {
+  background: red;
+  color: black;
+  }
+
+  h1,h2#user,button.button#button{
+    color:green;
+  }
+
+  #user, .user{
+    color:blue;
+  }
+
+  #box > p{
+    color:palevioletred;
+  }
+
+
+  footer > .user{
+    color:chocolate;  
+  }
+
+  footer em.child,
+  footer div.child{
+    color:rgb(51, 47, 79);
+  }
+
+  .p-top{
+    background: black;
+  }
+
+  h1 + p{
+    background:deeppink;
+  }
+
+  h1 ~ p,
+  h1 ~ * > p {
+    background:deeppink;
+  }*/
+
+  /* Селектори 2 частина */
+
+/*.card-dark {
+  background:#c7bcbcb7 ;
+}
+
+.item{
+  color:green
+  ;
+}
+
+.item:first-child {
+  color: rgb(171, 91, 15);
+}
+
+.item:last-child {
+  color: blue;
+}
+
+.item:only-child {
+  color: rgb(206, 28, 141);
+}
+
+p:first-of-type {
+  color: rgb(171, 91, 15);
+}
+
+.item:only-of-type{
+  color: blueviolet;
+}*/
+
+/*:-moz-drag-over:nth-child(3){
+  color:rgb(15, 28, 2)
+}
+
+.item:nth-child(even){
+  color:rgb(15, 28, 2)
+}
+
+.item:nth-child(3n + 1){
+  color:rgb(172, 10, 10)
+}
+
+.item:nth-child(2n){
+  color:rgb(172, 10, 10)
+}*/
+
+/*.item:nth- of-type(2n){
+  color:rgb(232, 56, 8)
+}
+
+p:not(.item){
+  color: #d40b79;
+}
+
+p:empty{
+  height: 10px;
+  background: red;
+}*/
+
+/* Селектори 3 частина 
+
+.input-dark {
+  background:#474646b7 ;
+}
+.input-dark[required] {
+  background:#e81313b7 ;
+}
+
+.input-dark[type="number"] {
+  background:#17e813b7 ;
+}
+
+.small-img[alt~="small"] {
+  height: 500px ;
+}
+
+a[rel~="external"] {
+  color:green;
+}
+
+button[class|="btn"] {
+background: rgb(217, 175, 175);
+}
+
+a[class*="btn"] {
+  background: rgb(201, 11, 11);
+  }
+
+a[class$="big"] {
+background: rgba(107, 6, 238, 0.854);
+}
+
+.btn::first-letter{
+ color: rgb(28, 5, 5);
+}
+
+.big-text::first-line {
+color:red ;
+}
+
+.input-dark::placeholder {
+  color:green ;
+  background: blue;
+}
+
+.before-after::before,
+.before-after::after {
+ content: "$$$";
+ color: green;
+ background: red;
+}*/
+
+ /*Селектори 4 частина */
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color:red;
+}
+
+.link:hover {
+  color:green;
+}
+
+.card:hover {
+  background: rgb(220, 234, 220);
+}
+
+.link:active {
+  color:purple;
+}
+
+.card:active {
+  background:rgb(235, 129, 235);
+}
+
+input {
+  background:grey;
+}
+
+input:focus {
+  background-color:red ;
+}
+
+.card:focus-within {
+  background: red;
+}
+
+.card:lang(en) > span::after {
+  content: " (en)" ;
+}
+
+ button {
+  background-color:greenyellow ;
+ }
+
+ button:enabled {
+  background-color: aqua;
+ }
+
+ button:disabled {
+  background-color: rgb(13, 132, 35);
+ }
+
+ .inp:read-write {
+  background-color: blue;
+ }
+
+ .inp:read-only {
+  background-color: red;
+ }
+
+ .input[type="checkbox"]:checkeb ~ span {
+  background: rgb(235, 98, 207);
+ }
+
+ .valid:valid{
+  background: yellow;
+ }
+
+ .valid:invalid{
+  background: rgb(74, 207, 74);
+ }
+
+ .valid:optional{
+  background: rgb(6, 243, 6);
+ }
+
+ .number:focus{
+background:gray ;
+ }
+
+ .number:out-of-range {
+  background: rgb(0, 217, 255);
+ }
+
+ .number:in-range {
+  background: rgb(69, 8, 199);
+ }
+
+ .number:invalid{
+  background: rgb(232, 229, 9);
+ }
+
+ input:placeholder-shown ~ span {
+  background: pink;
+ }
+
+ 
