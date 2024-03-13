@@ -199,7 +199,7 @@ router.get('/template-2', function (req, res) {
       {
         date: 'Oct 24',
         title: 'Latest post',
-        text: 'This is a wider card with supporting text below as a natural lead-in to additional content',
+        text: 'This is a wider card with supporting text below as a natural lead-in to additional content This is a wider card with supporting text below as a natural lead-in to additional content',
         category: [
           {
             id: 1,
