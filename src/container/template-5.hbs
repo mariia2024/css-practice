@@ -42,15 +42,24 @@
 		<div class="form_checkbox">
 			<input type="checkbox" name="{{checkbox.name}}" id="{{checkbox.name}}">
 			<div></div>
-			<label form="{{checkbox.name}}">{{checkbox.label}}</label>
+			<label for="{{checkbox.name}}">{{checkbox.label}}</label>
 		</div>
 
 		<button type="submit" class="form_button">{{button}}</button>
 		<p class="form_info">{{info}}</p>
 	</form>
 	{{/with}}
-</main>
 
+
+	{{#each advantages}}
+	<div class="advantage">
+		<strong>{{title}}</strong>
+		<p>{{text}}</p>
+	</div>
+	{{/each}}
+
+
+</main>
 
 <div class="advantages">
 	{{#each advantages}}
