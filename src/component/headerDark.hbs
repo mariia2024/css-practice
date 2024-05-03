@@ -1,0 +1,29 @@
+{{#with header}}
+<header class="header">
+
+	<div class="header_top">
+		<div class="logo">
+			<span class="badge">{{brandName}}</span>
+		</div>
+
+		<nav class="header_nav">
+			<div class="header_nav_right">
+				{{> nav list=links}}
+			</div>
+		</nav>
+	</div>
+
+	<div class="header_bottom">
+
+		{{#with ad}}
+		<div class="advertising">
+			<div class="advertising_logo">Ad</div>
+			<div class="advertising_text">{{text}}: {{url}}</div>
+		</div>
+		{{/with}}
+
+		<div class="users_online">Users online: {{userOnline}}</div>
+	</div>
+
+</header>
+{{/with}}
