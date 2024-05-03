@@ -1,0 +1,21 @@
+<main class="articles">
+
+	<div class="articles_header">
+		<h1 class="articles_title">Our Articles</h1>
+		<a href="#" class="article_button_view_all">View All</a>
+	</div>
+
+	<div class="article_field">
+
+		{{#each articles}}
+		<div class="article_card">
+			<div class="article_image" style="background-image: url({{photo}})"></div>
+			<h2 class="article_name">{{name}}</h2>
+			<p class="article_description">{{description}}</p>
+			<a href="#" class="article_button_read_all">Read All</a>
+		</div>
+		{{/each}}
+
+	</div>
+
+</main>
