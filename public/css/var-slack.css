@@ -1,0 +1,35 @@
+:root {
+	--color-white: #fff;
+	--color-black: #000;
+	--color-primary: #611f69;
+	--color-light: #f4ede4;
+  
+	--page-width-big: 1260px;
+	--page-width-medium: 1000px;
+	--page-width-small: 700px;
+  
+	--spacing-1: 8px;
+	--spacing-2: 12px;
+	--spacing-3: 16px;
+	--spacing-4: 20px;
+	--spacing-5: 24px;
+	--spacing-6: 28px;
+	--spacing-7: 32px;
+	--spacing-8: 36px;
+  
+	--size-1: 14px;
+	--size-2: 18px;
+	--size-3: 22px;
+	--size-4: 26px;
+	--size-5: 30px;
+	--size-6: 34px;
+  
+	--radius-1: 4px;
+  
+	--opacity-1: 0.7;
+	--opacity-2: 0.3;
+  
+	--transition-1: 0.7s;
+  
+	--line-height: 1.5em;
+  }
